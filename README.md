@@ -3,4 +3,4 @@ The data set also contains customer demographics (age, gender, marital status, c
 
 Now, they want to build a model to predict the purchase amount of customer against various products which will help them to create personalized offer for customers against different products.
 
-Model is based on XGBoost Regressor, with a RMSE value of 4980 approx
+Model is based on XGBoost Regressor with hyper parameters fine tuned using RandomSearchCV and Stratified K fold
